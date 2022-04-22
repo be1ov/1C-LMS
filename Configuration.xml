@@ -216,8 +216,13 @@
 			<Subsystem>НПА</Subsystem>
 			<Subsystem>ПреподавательскийСостав</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<SessionParameter>ТекущееФЛ</SessionParameter>
 			<Role>___ПОЛНЫЕПРАВА</Role>
-			<Role>Администрирование</Role>
+			<Role>Администратор</Role>
+			<Role>Преподаватель</Role>
+			<Constant>НаименованиеУчебногоЗаведения</Constant>
+			<CommonForm>РабочийСтолПреподавателя</CommonForm>
 			<Catalog>УчебныеГруппы</Catalog>
 			<Catalog>Учащиеся</Catalog>
 			<Catalog>Документы</Catalog>
@@ -230,11 +235,14 @@
 			<Document>ЗачислениеУчащихсяВУчебнуюГруппу</Document>
 			<Document>ОтчислениеУчащихсяИзУчебныхГрупп</Document>
 			<Document>НазначениеПреподавателей</Document>
+			<Document>ВыдачаЗаданияДляГруппы</Document>
 			<Enum>Пол</Enum>
 			<Report>СоставУчебныхГрупп</Report>
+			<Report>ОтчетОПользователяхИнформационнойСистемы</Report>
 			<InformationRegister>СоставГрупп</InformationRegister>
 			<InformationRegister>ЗачислениеУчащихся</InformationRegister>
 			<InformationRegister>ПреподавательскийСоставГрупп</InformationRegister>
+			<InformationRegister>ЗаданияДляГрупп</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
